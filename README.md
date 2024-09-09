@@ -15,6 +15,26 @@ I recommend you to use native Ubuntu (I used Ubuntu 24.04 LTS) system to run thi
 
 **Modified files is provided in this repository.**
 
+Main changed:
+
+**posa/dataset.py**
+
+In line 373, self.context_dir = os.path.join(data_dir, f"context_versions") 
+
+Changed the dictionary path.
+
+**train_sdm.py**
+
+From line 60, added a logic to traverse all batches files and changed the loss calculation.
+
+**test_sdm.py**
+
+In line 127, context_dir = os.path.join(data_dir, 'context_versions')
+
+Changed the dictionary path.
+
+**If you want to train the original dataset, please use the same name files in LSDM repository.**
+
 Make sure download the [PRO-teXt dataset](https://forms.gle/AutfNYQEF6K9DRYs7) successfully. Follows by the format below:
 
 ```
