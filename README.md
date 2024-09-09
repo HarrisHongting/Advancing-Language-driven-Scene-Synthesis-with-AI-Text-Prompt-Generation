@@ -10,9 +10,10 @@ In this project, I used the Groq AI API to overwrite the original PRO-teXt text 
 I recommend you to use native Ubuntu (I used Ubuntu 24.04 LTS) system to run this project. For the All guidance can be found in LSDM repository. The relevant datasets and code files are already included in this repository.
 
 ## Some things to note
-Before run this project, please make sure that all settings are done that introduced by the LSDM README file. (Such as environment setup and training process)
 
-Changed files is provided in this repository.
+**Before run this project, please make sure that all files are downloaded and all settings are done that introduced by the LSDM README file. (Such as environment setup and training process)**
+
+**Modified files is provided in this repository.**
 
 Make sure download the [PRO-teXt dataset](https://forms.gle/AutfNYQEF6K9DRYs7) successfully. Follows by the format below:
 
